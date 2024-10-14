@@ -7,6 +7,4 @@ public interface CharacterService {
     Character getRandomCharacter();
 
     List<Character> findByNameContaining(String name);
-
-    void syncCharactersFromExternalApi();
 }
